@@ -1,4 +1,4 @@
-import {Component} from '@angular/core'
+import {Component , Input , Output} from '@angular/core'
 import {Todo} from '../shared/todo'
 
 
@@ -10,8 +10,8 @@ import {Todo} from '../shared/todo'
     styleUrls: ['todo-list-item.conponent.css']
 })
 export class TodoItemComponent{
-    todo: Todo  = new Todo (
-        'asd'
-    );
-
+    @Input() todo : Todo ;
+    toggle(){
+        this.todo.completed = !this.todo.completed ;
+    }
 }

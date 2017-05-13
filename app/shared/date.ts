@@ -1,15 +1,15 @@
 
 export const todos = [
     {
-        title: 'asdas',
+        title: 'One',
         completed: false
     },
     {
-        title: 'asdas2',
+        title: 'Two',
         completed: false
     },
     {
-        title: 'asda3s',
+        title: 'Three',
         completed: true
     },
 ];
