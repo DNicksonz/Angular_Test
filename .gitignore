@@ -45,3 +45,4 @@ app/**/*.js.map
 *.xml
 *.xml
 .idea/workspace.xml
+\.idea/
